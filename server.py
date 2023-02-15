@@ -60,6 +60,5 @@ async def main():
         await stop
     
 if __name__ == "__main__":
-    print("hello")
     uvloop.install()
     asyncio.run(main(), debug=True)
